@@ -1,0 +1,186 @@
+@media (max-width: 575.98px) {
+    .nav_right,
+    .nav_left,
+    .home-vid,
+    .intro_logo,
+    .nav_down{
+        display: none !important;
+    }
+    .nav_up{
+        text-align: center !important;
+    }
+    .nav_logo{
+        width: 100% !important;
+    }
+    .nav_logo img{
+        height: 45px !important;
+    }
+    header{
+        background-image: url('https://symphony.cdn.tambourine.com/lotte-new-york-palace-redesign/media/home-1-mobile-61d31052a6adc.jpg');
+    }
+    h1{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 14px !important;
+        padding-bottom: 25px !important;
+    }
+    .underline_button span{
+        border: none !important;
+        font-size: 20px !important;
+    }
+    .underline_button{
+        padding: 5px 25px !important;
+        font-size: 20px !important;
+        display: inline-block !important;
+        border: solid 1px var(--gold);
+    }
+    .mobile_nav{
+        z-index: 100000;
+        display: inline-block !important;
+        position:fixed;
+        bottom: 0px;
+        background-color: var(--milkwhite);
+        width: 100svw !important;
+        height: 80px;
+        border-top: 1px solid black;
+        
+    }
+    .mobile_nav .container{
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .flex_button_m{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .flex_button_m a{
+        font-size: 25px;
+        
+        color: black;
+    }
+    .flex_button_m label{
+        color: black;
+        font-size: 10px;
+    }
+    .button_reserve{
+        background-color: var(--gold) !important;
+    }
+    .mobile_nav .button_reserve a{
+        margin: 0px !important;
+        color: var(--milkwhite) !important;
+    }
+    .container{
+        margin: 0 auto !important;
+    }
+    #presentation .container,
+    #luxory .container .luxory,
+    #wedding .container,
+    #spa .container,
+    #address .container,
+    #third_night .container{
+    padding: 0 10px !important;
+    }
+    .card{
+        flex-wrap: wrap !important;
+    }
+    .superlg{
+        font-size: 60px !important;
+    }
+    .intro_tittle h1{
+        font-size: 60px !important;
+        bottom: 80px !important;
+    }
+    #luxory .superlg_container{
+        padding-left: 10px !important;
+    }
+    .container .luxory{
+        margin-top: 0 !important; 
+    }
+    .vertical_card{
+        flex-basis: 90% !important;
+    }
+    .vtext_holder{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    /* HAPPENINGS */
+    #happenings .background_container,
+    #happenings .container{
+        height: 60svh !important;
+    }
+
+    #happenings .card{
+        width: 90% !important;
+        flex-wrap: nowrap !important;
+        padding: 50px 10px !important;
+    }
+    #spa .card,
+    #third_night .container,
+    #address .card,
+    #dining .container,
+    header{
+        margin-bottom: 75px !important;
+    }
+
+    #happenings .container{
+        margin-bottom: 200px !important;
+    }
+    /* Dining */
+    #dining .card{
+        margin: 0 10px !important;
+    }
+    #dining .container{
+        padding-bottom: 100px;
+        background-color: var(--darkkbg);
+        color: var(--milkwhite);
+    }
+    #dining img{
+        padding: 0 10px !important;
+        height: 350px !important;
+        margin-left: 0px !important;
+        margin-top: -150px !important;
+    }
+    .reverse{
+        order: -1 !important;
+    }
+
+    /* SPA */
+    #wedding .card,
+    #spa .card{
+        margin-top: 0px !important;
+        padding-bottom: 100px !important;
+    }
+
+    /* ADDRESS */
+
+    
+    #address .underline_button,
+    #address span{
+        font-size: 15px !important;
+    }
+    #address .container{
+        margin-bottom: 100px !important;
+    }
+    #news form{
+        grid-template-columns: 1fr !important;
+    }
+    .form_input input{
+        flex-basis: 90% !important;
+    }
+    .form_checkbx{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    }
+    .form_checkbx label{
+        margin: 0px !important;
+    }
+}
